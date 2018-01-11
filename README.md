@@ -134,4 +134,8 @@ middleman build
 
 ### Deploy:
 
-*Soon...*
+```
+middleman deploy
+```
+
+*Will be accessible from [juliendargelos.com/dixie-project](http://juliendargelos.com/dixie-project/)*

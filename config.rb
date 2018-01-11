@@ -1,10 +1,15 @@
+require 'sprockets/es6'
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :directory_indexes
-activate :sprockets
 activate :relative_assets
 activate :livereload
+
+activate :sprockets do |sprockets|
+  sprockets.supported_output_extensions << '.es6'
+end
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
