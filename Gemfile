@@ -13,3 +13,5 @@ gem 'sprockets-es6'
 gem 'middleman-deploy', git: 'https://github.com/middleman-contrib/middleman-deploy', branch: :master
 gem 'byebug'
 gem 'middleman-livereload', '~> 3.4.3'
+
+gem 'jquery-middleman'

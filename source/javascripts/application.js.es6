@@ -1,3 +1,4 @@
+//= require jquery
 //= require ./lib/_component
 //= require_self
 //= require_tree ./application
