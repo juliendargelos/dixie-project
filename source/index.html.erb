@@ -1,0 +1,22 @@
+<main class="main">
+  <section class="main__section canvas">
+    <div class="canvas__section">
+    </div>
+
+    <div class="canvas__shared">
+    </div>
+
+    <div class="canvas__section">
+    </div>
+  </section>
+
+  <section class="main__section book">
+    <% data.book.pages.each do |page| %>
+      <article class="book__page">
+        <% page.text.split("\n").each do |paragraph| %>
+          <p class="book__paragraph"><%= paragraph %></p>
+        <% end %>
+      </article>
+    <% end %>
+  </section>
+</main>
