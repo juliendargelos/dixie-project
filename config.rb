@@ -11,6 +11,10 @@ activate :sprockets do |sprockets|
   sprockets.supported_output_extensions << '.es6'
 end
 
+after_configuration do
+  sprockets.append_path 'node_modules'
+end
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
