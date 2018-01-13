@@ -1,6 +1,6 @@
-# Dixie Project
+# Lilu
 
-*This name is intented to change...*
+*This name is intented to change, or does it ?*
 
 ## Install
 
