@@ -5,9 +5,22 @@
   display: flex
 
   &__section
-    flex-basis: 100%
+    box-sizing: border-box
+    flex-basis: 50%
     flex-grow: 1
     flex-shrink: 1
+
+    &--folded
+      &, &--visible
+        width: 100%
+        flex-grow: 0
+        flex-shrink: 0
+
+        ~ *
+          transform: translateX(-100%)
+
+      &--visible
+
 
     &:not(:first-of-type)
       border-left: 2px solid $light-grey
