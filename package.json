@@ -13,6 +13,7 @@
   "author": "Julien Dargelos",
   "license": "MIT",
   "dependencies": {
-    "scrollsnap-polyfill": "^0.1.0"
+    "scrollsnap-polyfill": "^0.1.0",
+    "simplex-noise": "^2.4.0"
   }
 }
