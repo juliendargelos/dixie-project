@@ -1,25 +1,39 @@
 .book
+  height: 100%
   overflow: scroll
+  -webkit-scroll-snap-type: mandatory
+  scroll-snap-type: y mandatory
+  -webkit-scroll-snap-points-y: repeat(100%)
+  scroll-snap-points-y: repeat(100%)
 
   &__page
-    min-height: 100%
-    padding: 20px
+    height: 100%
+    padding: 24px
     box-sizing: border-box
+    display: flex
+    flex-direction: column
+    -webkit-scroll-snap-align: start
+    scroll-snap-align: start
 
   &__paragraph
     font-family: Times, sans-serif
     font-size: 18px
-    line-height: 1.7em
+    line-height: 1.9em
     color: $medium-grey
 
-    &:first-of-type:first-letter
-      height: .8em
-      margin-right: 10px
-      float: left
-      display: block
-      font-size: 60px
-      color: $black
-      line-height: 1em
+    &:first-of-type
+      margin-top: auto
+      &:first-letter
+        height: .8em
+        margin-right: 10px
+        float: left
+        display: block
+        font-size: 69px
+        color: $black
+        line-height: 1em
+
+    &:last-of-type
+      margin-bottom: auto
 
     &:not(:last-of-type)
       margin-bottom: 15px

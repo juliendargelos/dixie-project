@@ -1,0 +1,19 @@
+{
+  "name": "lilu",
+  "version": "1.0.0",
+  "description": "*This name is intented to change...*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/juliendargelos/lilu"
+  },
+  "author": "Julien Dargelos",
+  "license": "MIT",
+  "dependencies": {
+    "scrollsnap-polyfill": "^0.1.0",
+    "simplex-noise": "^2.4.0"
+  }
+}

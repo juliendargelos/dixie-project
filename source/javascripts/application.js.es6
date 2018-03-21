@@ -1,3 +1,5 @@
+//= require scrollsnap-polyfill/dist/scrollsnap-polyfill.bundled
+//= require simplex-noise/simplex-noise
 //= require jquery
 //= require ./lib/_component
 //= require_self

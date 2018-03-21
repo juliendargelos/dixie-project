@@ -1,8 +1,7 @@
-class Component {
-  static get upperCase() {
-    return ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-  }
+//= require_self
+//= require_tree ./component
 
+class Component {
   static get components() {
     var components = [];
 
@@ -14,16 +13,12 @@ class Component {
   }
 
   static hasComponent(component) {
-    return this.upperCase.includes((component + '')[0]);
+    return (component + '').match(/^[A-Z]/) !== null;
   }
 
   static init() {
     this.components.forEach(component => {
       if(typeof component.init === 'function') component.init();
     });
-  }
-
-  constructor() {
-
   }
 }
