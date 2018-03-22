@@ -1,6 +1,6 @@
 # Lilu
 
-*This name is intented to change, or does it ?*
+*La lecture à deux* (prototype)
 
 ## Install
 
@@ -76,16 +76,16 @@ A list of ruby version will be printed, check if it contains `2.4.2`.
 rbenv install 2.4.2
 ```
 
-### 4. Clone the [repository](https://www.github.com/juliendargelos/dixie-project)
+### 4. Clone the [repository](https://www.github.com/juliendargelos/lilu)
 
 ```bash
-git clone git@github.com:juliendargelos/dixie-project.git
+git clone git@github.com:juliendargelos/lilu.git
 ```
 
 Then go into the project directory, probably:
 
 ```
-cd dixie-project
+cd lilu
 ```
 
 ### 5. [Bundler](http://bundler.io)
@@ -138,4 +138,4 @@ middleman build
 middleman deploy
 ```
 
-*Will be accessible from [juliendargelos.com/dixie-project](http://juliendargelos.com/dixie-project/)*
+*Will be accessible from [juliendargelos.github.io/lilu](http://juliendargelos.github.io/lilu/)*
