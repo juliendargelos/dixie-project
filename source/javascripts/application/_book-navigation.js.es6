@@ -11,10 +11,16 @@ Application.BookNavigation = class BookNavigation extends Component {
 
 
     this.element.addEventListener('click', event => {
+
       if (book.classList.contains('resize')) {
         book.classList.remove('resize')
         if (draw.classList.contains('drawing-finished')) {
           console.log('Dessin terminé');
+          var test = document.querySelector('.book')
+          console.log(test)
+          var test1 = test.firstChild
+          console.log(test1);
+
         }
         else {
           console.log('Dessin non terminé');

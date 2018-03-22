@@ -29,29 +29,32 @@
     h1
       font-size: 2em
       text-align: center
-      color: $medium-grey
+      color: $blue
       margin-top: auto
       margin-bottom: 100px
+      line-height: 40px
+      font-family: 'AvenirLTStd-Heavy'
     &.with-title
       .book__paragraph
         margin-top: 0
 
   &__paragraph
     font-family: Times, sans-serif
-    font-size: 18px
+    font-size: 20px
     line-height: 1.9em
     color: black
+    font-family: 'AvenirLTStd-Roman'
 
     &:first-of-type
       margin-top: auto
-      &:first-letter
-        height: .8em
-        margin-right: 10px
-        float: left
-        display: block
-        font-size: 69px
-        color: $black
-        line-height: 1em
+      // &:first-letter
+      //   height: .8em
+      //   margin-right: 10px
+      //   float: left
+      //   display: block
+      //   font-size: 69px
+      //   color: $black
+      //   line-height: 1em
 
     &:last-of-type
       margin-bottom: auto
@@ -69,7 +72,7 @@
     height: 0
     border-style: solid
     border-width: 0 0 100px 100px
-    border-color: transparent transparent $medium-grey transparent
+    border-color: transparent transparent $blue transparent
 
 @keyframes blur
   from
