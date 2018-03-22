@@ -1,15 +1,18 @@
 pages:
-  - instruction: Comment imagines-tu Boggis ?
+  - id: 0
+    instruction: Comment imagines-tu Boggis ?
     chapter: Chapitre n°1 - Les trois fermiers
     text: |
       Dans la vallée, il y avait trois fermes. Les propriétaires de ces fermes avaient bien réussi. Ils étaient riches. Ils étaient aussi méchants. Mais tous trois n’étaient ni plus méchants ni plus mesquins que d’autres. Ils s’appelaient Boggis, Bunce et Bean. Boggis élevait des poulets. Il avait des milliers de poulets. Il était horriblement gros. Cela, parce qu’il mangeait tous les jours au petit déjeuner, au déjeuner et au dîner, trois poulets cuits à la cocotte avec des croquettes.
 
-  - instruction: Dessine le nabot ventripotent.
+  - id: 1
+    instruction: Dessine le nabot ventripotent.
     chapter:
     text: |
       Bunce élevait des oies et des canards. Il avait des milliers d’oies et de canards. C’était une espèce de nabot ventripotent. Il était si petit que, dans le petit bain d’une piscine, il aurait eu de l’eau jusqu’au menton. Il se nourrissait de beignets et de foies d’oies. Il écrasait les foies et fourrait les beignets de cette bouillie infâme. Ce régime lui donnait mal à l’estomac et un caractère. épouvantable.
 
-  - instruction: Représente Bean le fermier
+  - id: 2
+    instruction: Représente Bean le fermier
     chapter:
     text: |
       Bean avait des dindes et des pommes. Il élevait des milliers de dindes dans un verger plein de pommiers. Il ne mangeait jamais. Par contre, il buvait des litres d’un cidre très fort, qu’il tirait des pommes de son verger. Il était maigre comme un clou et c’était le plus intelligent des trois.

@@ -14,6 +14,9 @@
 
   &.resize
     width: 50%
+  &.animation-resize
+    animation-duration: 0.7s
+    animation-name: blur
 
   &__page
     height: 100%
@@ -26,12 +29,18 @@
     h1
       font-size: 2em
       text-align: center
+      color: $medium-grey
+      margin-top: auto
+      margin-bottom: 100px
+    &.with-title
+      .book__paragraph
+        margin-top: 0
 
   &__paragraph
     font-family: Times, sans-serif
     font-size: 18px
     line-height: 1.9em
-    color: $medium-grey
+    color: black
 
     &:first-of-type
       margin-top: auto
@@ -61,3 +70,9 @@
     border-style: solid
     border-width: 0 0 100px 100px
     border-color: transparent transparent $medium-grey transparent
+
+@keyframes blur
+  from
+    filter: blur(0px)
+  to
+    filter: blur(5px)
