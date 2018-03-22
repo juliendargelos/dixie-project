@@ -1,5 +1,7 @@
 <main class="main">
   <section class="main__section dreamy-sketch">
+    <canvas class="dreamy-sketch__canvas"></canvas>
+    <div class="dreamy-sketch__done">Terminé</div>
     <div class="dreamy-sketch__order">
       <% data.book.pages.each.with_index do |page, n| %>
         <div class="order">
@@ -13,12 +15,11 @@
         </div>
       <% end %>
     </div>
-    <canvas class="dreamy-sketch__canvas"></canvas>
   </section>
 
   <section class="main__section book">
     <% data.book.pages.each do |page| %>
-      <article class="book__page">
+      <article class="book__page <% if page.chapter %>with-title<% end %>" data-id="0">
         <% if page.chapter %>
           <% page.chapter.strip.split("\n").each do |chapter| %>
             <h1><%= chapter %></h1>
@@ -29,6 +30,11 @@
         <% end %>
       </article>
     <% end %>
-    <div class="book__next-chapter">Chapitre suivant</div>
+    <div class="book__next-chapter"></div>
   </section>
+
+  <!-- <section class="main__section timeline">
+
+  </section> -->
+
 </main>
