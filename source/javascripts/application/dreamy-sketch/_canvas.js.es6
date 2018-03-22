@@ -44,10 +44,20 @@ Application.DreamySketch.Canvas = class Canvas extends Component {
     }
   }
 
+  blob(callback) {
+    return this.element.toBlob(callback);
+  }
+
   resize() {
     if(this.parent) {
-      this.width = this.parent.offsetWidth;
-      this.height = this.parent.offsetHeight;
+      var image = new Image();
+      image.onload = () => this.context.drawImage(image, 0, 0);
+
+      this.blob(blob => {
+        this.width = this.parent.offsetWidth;
+        this.height = this.parent.offsetHeight;
+        image.src = URL.createObjectURL(blob);
+      });
     }
   }
 }

@@ -2,56 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64ef4da7-bc90-4c73-be91-445b46b2285d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/_dreamy-sketch.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/_brush.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/_canvas.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/_color.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/_noise.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/_touch.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/_vector.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/brush/_circle.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/brush/_polygon.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/brush/_shape.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/brush/shape/_ellipse.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/brush/shape/_list.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/brush/shape/_polygon.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/brush/shape/ellipse/_circle.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/brush/shape/polygon/_rectangle.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/brush/shape/polygon/_triangle.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/color/_component.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/color/_format.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/color/_list.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/color/component/_alpha.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/color/component/_rgb.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/color/format/_hexadecimal.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/color/format/_rgb.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/color/format/_rgba.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/touch/_list.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/vector/_coordinate.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/vector/_list.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/vector/_size.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/lib/component/_list.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/javascripts/lib/component/_number.js.es6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/stylesheets/application/_dreamy-sketch.sass" />
-      <change beforePath="$PROJECT_DIR$/.byebug_history" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
-      <change beforePath="$PROJECT_DIR$/source/images/shared.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/source/index.html.erb" afterPath="$PROJECT_DIR$/source/index.html.erb" />
-      <change beforePath="$PROJECT_DIR$/source/javascripts/application.js.es6" afterPath="$PROJECT_DIR$/source/javascripts/application.js.es6" />
-      <change beforePath="$PROJECT_DIR$/source/javascripts/application/.keep" afterPath="$PROJECT_DIR$/source/images/.keep" />
-      <change beforePath="$PROJECT_DIR$/source/javascripts/application/test.js.es6" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/source/javascripts/lib/_component.js.es6" afterPath="$PROJECT_DIR$/source/javascripts/lib/_component.js.es6" />
-      <change beforePath="$PROJECT_DIR$/source/javascripts/lib/_events-manager.js.es6" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/source/javascripts/lib/_snap-scroll.js.es6" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/source/javascripts/lib/events-manager/_stack.js.es6" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/source/layouts/layout.erb" afterPath="$PROJECT_DIR$/source/layouts/layout.erb" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/application/_book.sass" afterPath="$PROJECT_DIR$/source/stylesheets/application/_book.sass" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/application/_canvas.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/application/_main.sass" afterPath="$PROJECT_DIR$/source/stylesheets/application/_main.sass" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/data/book.yml" afterPath="$PROJECT_DIR$/data/book.yml" />
+      <change beforePath="$PROJECT_DIR$/source/javascripts/application/painting/draw.js.es6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/source/javascripts/application/painting/tools.js.es6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/source/javascripts/application/painting/tools/brush.js.es6" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,21 +20,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="book.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="book.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/book.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="69">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/layouts/layout.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_component.js.es6" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/javascripts/lib/_component.js.es6">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_number.js.es6" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/javascripts/lib/component/_number.js.es6">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_list.js.es6" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/javascripts/lib/component/_list.js.es6">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,6 +91,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/source/index.html.erb" />
+        <option value="$PROJECT_DIR$/data/book.yml" />
       </list>
     </option>
   </component>
@@ -150,6 +148,40 @@
               <item name="dixie-project" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dixie-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dixie-project" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dixie-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dixie-project" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dixie-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dixie-project" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dixie-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dixie-project" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dixie-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dixie-project" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -189,12 +221,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521639759845</updated>
       <workItem from="1521639761689" duration="145000" />
-      <workItem from="1521639973314" duration="95000" />
+      <workItem from="1521639973314" duration="669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238000" />
+    <option name="totallyTimeSpent" value="812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -298,18 +330,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/book.yml">
+    <entry file="file://$PROJECT_DIR$/source/javascripts/application.js.es6">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/javascripts/application/painting/tools/brush.js.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/javascripts/lib/component/_number.js.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/javascripts/lib/component/_list.js.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/layouts/layout.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/javascripts/application/dreamy-sketch/_brush.js.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/javascripts/lib/_component.js.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/book.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

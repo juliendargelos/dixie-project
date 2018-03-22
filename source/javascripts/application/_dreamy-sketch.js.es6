@@ -59,6 +59,7 @@ Application.DreamySketch = class DreamySketch extends Component {
 
   static init() {
     super.init();
-    return new this(document.querySelector('.dreamy-sketch'));
+    this.singleton = new this(document.querySelector('.dreamy-sketch'));
+    return this.singleton;
   }
 }
