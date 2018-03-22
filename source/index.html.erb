@@ -2,39 +2,43 @@
   <section class="main__section dreamy-sketch">
     <canvas class="dreamy-sketch__canvas"></canvas>
     <div class="dreamy-sketch__done">Terminé</div>
-    <div class="dreamy-sketch__order">
-      <% data.book.pages.each.with_index do |page, n| %>
-        <div class="order">
-          <div class="order__content">
-            <div class="order__content--text">
-              <h2>Défis n°<%= n + 1 %></h2>
-              <h3><%= page.instruction.strip %></h3>
-              <div class="order__content--button">Prêt</div>
+    <div class="order">
+      <div class="order__page">
+        <div class="order__content">
+          <div class="order__container">
+            <div class="order__instructions">
+              <div class="order__wrapper" style="width: <%= data.book.pages.length*300 %>px">
+                <% data.book.pages.each.with_index do |page, n| %>
+                  <div class="order__text">
+                    <h2 class="order__subtitle">Défis n°<%= n + 1 %></h2>
+                    <h3 class="order__title"><%= page.instruction.strip %></h3>
+                  </div>
+                <% end %>
+              </div>
             </div>
+            <div class="order__button">Prêt</div>
           </div>
         </div>
-      <% end %>
+      </div>
     </div>
   </section>
 
   <section class="main__section book">
-    <% data.book.pages.each do |page| %>
-      <article class="book__page <% if page.chapter %>with-title<% end %>" data-id="0">
-        <% if page.chapter %>
-          <% page.chapter.strip.split("\n").each do |chapter| %>
-            <h1><%= chapter %></h1>
+    <div class="book__wrapper" style="width: <%= data.book.pages.length*100 %>%">
+      <% data.book.pages.each do |page| %>
+        <article class="book__page <% if page.chapter %>with-title<% end %>" style="width: <%= 100/data.book.pages.length %>%">
+          <% if page.chapter %>
+            <% page.chapter.strip.split("\n").each do |chapter| %>
+              <h1 class="book__title"><%= chapter %></h1>
+            <% end %>
           <% end %>
-        <% end %>
-        <% page.text.strip.split("\n").each do |paragraph| %>
-          <p class="book__paragraph"><%= paragraph %></p>
-        <% end %>
-      </article>
-    <% end %>
+          <% page.text.strip.split("\n").each do |paragraph| %>
+            <p class="book__paragraph"><%= paragraph %></p>
+          <% end %>
+        </article>
+      <% end %>
+    </div>
     <div class="book__next-chapter"></div>
   </section>
-
-  <!-- <section class="main__section timeline">
-
-  </section> -->
 
 </main>
