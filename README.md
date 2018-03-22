@@ -1,6 +1,6 @@
 # Lilu
 
-*This name is intented to change, or does it ?*
+*La lecture à deux* (prototype)
 
 ## Install
 
