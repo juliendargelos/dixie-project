@@ -1,30 +1,39 @@
 Application.BookNavigation = class BookNavigation extends Component {
   constructor(element) {
     super();
+
     this.element = element
 
     var book = document.querySelector('.book')
-    var order = document.querySelector('.dreamy-sketch__order')
-    var draw = document.querySelector('.dreamy-sketch__canvas')
-    var startDrawingButton = document.querySelector('.order__content--button')
-    var endDrawingButton = document.querySelector('.dreamy-sketch__done')
-
+        bookWrapper = document.querySelector('.book__wrapper')
+        orderWrapper = document.querySelector('.order__wrapper')
+        order = document.querySelector('.order')
+        draw = document.querySelector('.dreamy-sketch__canvas')
+        startDrawingButton = document.querySelector('.order__button')
+        endDrawingButton = document.querySelector('.dreamy-sketch__done')
+        factor = 0
 
     this.element.addEventListener('click', event => {
 
-      if (book.classList.contains('resize')) {
-        book.classList.remove('resize')
-        if (draw.classList.contains('drawing-finished')) {
-          console.log('Dessin terminé');
-          var test = document.querySelector('.book')
-          console.log(test)
-          var test1 = test.firstChild
-          console.log(test1);
+      bookWrapper.style.webkitFilter = "blur(30px)"
+      setTimeout(function() {
+        bookWrapper.style.webkitFilter = "blur(0px)"
+      }, 700)
 
+      if (book.classList.contains('resize')) {
+
+        book.classList.remove('resize')
+
+        if (draw.classList.contains('drawing-finished')) {
+          factor += 1
+          bookWrapper.style.webkitTransform = "translateX(-"+factor*33+"%)";
+          orderWrapper.style.webkitTransform = "translateX(-"+factor*33+"%)";
+          draw.classList.remove('drawing-finished')
+          setTimeout(function() {
+            order.classList.remove('hide')
+          }, 700)
         }
-        else {
-          console.log('Dessin non terminé');
-        }
+
       }
       else {
         book.classList.add('resize')
@@ -32,7 +41,7 @@ Application.BookNavigation = class BookNavigation extends Component {
     })
 
     startDrawingButton.addEventListener('click', event => {
-      order.classList.add('hide-order')
+      order.classList.add('hide')
     })
 
     endDrawingButton.addEventListener('click', event => {
