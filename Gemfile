@@ -1,4 +1,4 @@
-ruby '2.4.2'
+ruby '2.3.3'
 
 source 'https://rubygems.org'
 
@@ -13,5 +13,4 @@ gem 'sprockets-es6'
 gem 'middleman-deploy', git: 'https://github.com/middleman-contrib/middleman-deploy', branch: :master
 gem 'byebug'
 gem 'middleman-livereload', '~> 3.4.3'
-
 gem 'jquery-middleman'

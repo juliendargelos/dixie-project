@@ -1,15 +1,36 @@
 <main class="main">
   <section class="main__section dreamy-sketch">
+    <div class="dreamy-sketch__order">
+      <% data.book.pages.each do |page| %>
+        <div class="order">
+          <div class="order__content">
+            <div class="order__content--text">
+              <h2>Défis n°1</h2>
+              <% page.instruction.strip.split("\n").each do |instruction| %>
+                <h3><%= instruction %></h3>
+              <% end %>
+              <div class="order__content--button">Prêt</div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
     <canvas class="dreamy-sketch__canvas"></canvas>
   </section>
 
   <section class="main__section book">
     <% data.book.pages.each do |page| %>
       <article class="book__page">
-        <% page.text.split("\n").each do |paragraph| %>
+        <% if page.chapter %>
+          <% page.chapter.strip.split("\n").each do |chapter| %>
+            <h1><%= chapter %></h1>
+          <% end %>
+        <% end %>
+        <% page.text.strip.split("\n").each do |paragraph| %>
           <p class="book__paragraph"><%= paragraph %></p>
         <% end %>
       </article>
     <% end %>
+    <div class="book__next-chapter">Chapitre suivant</div>
   </section>
 </main>
