@@ -141,6 +141,10 @@ Application.DreamySketch.Color = class Color extends Component {
     return this.clone.square();
   }
 
+  get transparented() {
+    return this.clone.transparent()
+  }
+
   each(callback, alpha) {
     for(var component in this.components) {
       if((component !== 'alpha' || alpha === true) && callback.call(this, component, this[component]) === false) break;
@@ -193,6 +197,10 @@ Application.DreamySketch.Color = class Color extends Component {
 
   invert() {
     return this.map((component, value) => value === 0 ? 0 : 1/value);
+  }
+
+  transparent() {
+    return this.set({alpha: 0})
   }
 
   clear() {
