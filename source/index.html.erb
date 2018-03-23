@@ -9,7 +9,7 @@
             <div class="order__instructions">
               <div class="order__wrapper" style="width: <%= data.book.pages.length*300 %>px">
                 <% data.book.pages.each.with_index do |page, n| %>
-                  <div class="order__text">
+                  <div class="order__text" >
                     <h2 class="order__subtitle">Défis n°<%= n + 1 %></h2>
                     <h3 class="order__title"><%= page.instruction.strip %></h3>
                   </div>

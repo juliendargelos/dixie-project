@@ -11,6 +11,7 @@ Application.BookNavigation = class BookNavigation extends Component {
         draw = document.querySelector('.dreamy-sketch__canvas')
         startDrawingButton = document.querySelector('.order__button')
         endDrawingButton = document.querySelector('.dreamy-sketch__done')
+        canvas = document.querySelector('.dreamy-sketch__canvas')
         factor = 0
 
     this.element.addEventListener('click', event => {
@@ -32,6 +33,7 @@ Application.BookNavigation = class BookNavigation extends Component {
           setTimeout(function() {
             order.classList.remove('hide')
           }, 700)
+          console.log(new Application.DreamySketch.Canvas())
         }
 
       }
