@@ -4,7 +4,10 @@ Application.DreamySketch.Canvas = class Canvas extends Component {
 
     this.element = element;
     this.context = this.element.getContext('2d');
-    this.resizeListener = () => this.resize();
+    this.resizeListener = () => {
+      clearTimeout(this.resizeTimeout);
+      this.resizeTimeout = setTimeout(() => this.resize(), 200);
+    }
     this.autoResize = true;
   }
 
