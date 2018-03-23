@@ -34,7 +34,6 @@ Application.BookNavigation = class BookNavigation extends Component {
             order.classList.remove('hide')
             Application.DreamySketch.singleton.canvas.clear()
           }, 700)
-          console.log(new Application.DreamySketch.Canvas())
         }
 
       }
