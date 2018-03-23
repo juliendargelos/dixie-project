@@ -69,19 +69,17 @@ Application.DreamySketch.Vector = class Vector {
     this._noises = v;
   }
 
-  delta(vector) {
-    return this.substract(vector).abs;
+  delta() {
+    return this.substract(...arguments).abs;
   }
 
-  distance(vector) {
-    if(arguments.length === 0) vector = new this.constructor(0, 0);
-    var delta = this.delta(vector);
-
+  distance() {
+    var delta = this.delta(...arguments);
     return Math.sqrt(Math.pow(delta.x, 2) + Math.pow(delta.y, 2));
   }
 
-  add(vector) {
-    var delta = this.constructor.from(vector);
+  add() {
+    var delta = this.constructor.from(...arguments);
     return new this.constructor(this.x + delta.x, this.y + delta.y);
   }
 
@@ -89,13 +87,13 @@ Application.DreamySketch.Vector = class Vector {
     return this.add(this.constructor.from(vector).opposite);
   }
 
-  multiply(vector) {
-    var factor = this.constructor.from(vector);
+  multiply() {
+    var factor = this.constructor.from(...arguments);
     return new this.constructor(this.x*factor.x, this.y*factor.y);
   }
 
-  divide(vector) {
-    return this.multiply(this.constructor.from(vector).inverse)
+  divide() {
+    return this.multiply(this.constructor.from(...arguments).inverse)
   }
 
   noise(factor, offset, minimum, maximum) {

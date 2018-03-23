@@ -31,6 +31,7 @@ Application.BookNavigation = class BookNavigation extends Component {
           draw.classList.remove('drawing-finished')
           setTimeout(function() {
             order.classList.remove('hide')
+            Application.DreamySketch.singleton.canvas.clear()
           }, 700)
         }
 

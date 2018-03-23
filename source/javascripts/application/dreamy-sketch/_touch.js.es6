@@ -16,10 +16,16 @@ Application.DreamySketch.Touch = class Touch extends Component {
     this._identifier = v + '';
   }
 
+  get clone() {
+    var clone = new this.constructor(this.position, this.speed, this.identifier);
+    clone.origin = this.origin;
+
+    return clone;
+  }
+
   update(x, y) {
     var position = new Application.DreamySketch.Vector(x, y);
-
-    this.speed.set(position.x - this.position.x, position.y - this.position.y);
+    this.speed.set(position.substract(this.position, true));
     this.position.set(position);
   }
 
@@ -32,10 +38,20 @@ Application.DreamySketch.Touch = class Touch extends Component {
   }
 
   static fromMouseEvent(event) {
-    return new this({x: event.clientX, y: event.clientY});
+    return new this({x: event.clientX, y: event.clientY}, null, this.mouseIdentifier);
   }
 
   static fromTouchEvent(touch) {
     return new this({x: touch.pageX, y: touch.pageY}, null, touch.identifier);
+  }
+
+  static updateMouseIdentifier() {
+    this.mouseIdentifier = 'm' + Date.now() + (new Array(10)).fill(null).map(() => Math.floor(Math.random()*10)).join('');
+  }
+
+  static init() {
+    this.updateMouseIdentifier();
+    window.addEventListener('mouseup', () => this.updateMouseIdentifier());
+    super.init();
   }
 }
