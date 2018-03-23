@@ -37,6 +37,10 @@ Application.DreamySketch.Touch.List = class List extends Component {
     return this.object[identifier + ''];
   }
 
+  has(touch) {
+    return !!this.get(touch.identifier);
+  }
+
   each(callback) {
     this.array.forEach((...args) => callback.call(this, ...args));
 

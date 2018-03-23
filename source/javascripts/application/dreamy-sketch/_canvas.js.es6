@@ -44,6 +44,10 @@ Application.DreamySketch.Canvas = class Canvas extends Component {
     }
   }
 
+  clear() {
+    this.context.clearRect(0, 0, this.width, this.height);
+  }
+
   blob(callback) {
     return this.element.toBlob(callback);
   }

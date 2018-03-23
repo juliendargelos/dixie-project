@@ -5,7 +5,7 @@ Application.DreamySketch = class DreamySketch extends Component {
     this.element = element;
     this.canvas = new this.constructor.Canvas(this.element.querySelector('.dreamy-sketch__canvas'));
     this.touches = new this.constructor.Touch.List();
-    this.brush = new Application.DreamySketch.Brush.Circle();
+    this.brush = new Application.DreamySketch.Brush.Pen();
 
     var draw = () => {
       if(this.drawing) {
